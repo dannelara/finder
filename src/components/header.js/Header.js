@@ -1,6 +1,13 @@
 import React from "react";
-import { StyledHeader } from "./Styles";
+import { StyledHeader, SubBig, SubSmall } from "./Styles";
 
 export default function Header() {
-  return <StyledHeader>header</StyledHeader>;
+  return (
+    <StyledHeader>
+      <SubBig>
+        <SubSmall>Logo</SubSmall>
+        <SubSmall>Links</SubSmall>
+      </SubBig>
+    </StyledHeader>
+  );
 }
